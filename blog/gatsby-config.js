@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `90's Wrestling Is Alive And Well`,
+    title: `90's Wrestling Is Alive And Well `,
     description: `ITDEV-164 Gatsby Blog`,
     author: `John Wynne`,
     contact: {
