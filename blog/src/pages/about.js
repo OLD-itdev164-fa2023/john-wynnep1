@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const About = ({ data }) => {
-  const { name, company } = data.site.setMetadata.contact
+  const { name, company } = data.site.siteMetadata.contact
   return (
     <Layout>
       <SEO title="About" />

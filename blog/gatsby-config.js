@@ -16,8 +16,8 @@ module.exports = {
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-source-filesystem`,
+    {cd 
+      resolve: `gatsby-source-filesystem`
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
